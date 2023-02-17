@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         tasks1_2_3();
+        System.out.println("ДЗ сделано");
     }
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();

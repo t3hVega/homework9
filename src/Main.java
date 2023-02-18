@@ -32,7 +32,7 @@ public class Main {
         }
         System.out.println("Максимальная сумма трат за день составила " + maxSpendings + " рублей");
         System.out.println("Минимальная сумма трат за день составила " + minSpendings + " рублей");
-        double midSpendings = overallSpendings / spendings.length;
+        double midSpendings = (double) overallSpendings / spendings.length;
         System.out.println("Средняя сумма трат за день составила " + midSpendings + " рублей");
     }
     public static void task4() {
